@@ -1,8 +1,15 @@
 aid: intervenn
 name: InterVenn
-description: 'InterVenn is a company surfaced as a portfolio company of amplify-partners, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'InterVenn Biosciences is a digital-biology company applying artificial
+  intelligence and mass spectrometry to glycoproteomics, the large-scale study of
+  glycosylated proteins, to discover novel biomarkers for precision medicine. Its
+  proprietary platform integrates liquid chromatography and tandem mass spectrometry
+  (LC-MS) with AI-driven analysis (including the OpenPIP software) to identify and
+  quantify glycopeptides and glycan structures across complex diseases such as cancer.
+  Surfaced as a portfolio company of amplify-partners and softbank-vision-fund and
+  added to the API Evangelist network. InterVenn publishes no public developer API,
+  portal, or specifications as of this enrichment pass; this profile carries company
+  identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/intervenn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,31 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://intervenn.com/images/intervenn-favicon1.jpg
 tags:
 - Company
 - Digital Biology
+- Glycoproteomics
+- Proteomics
+- Mass Spectrometry
+- Precision Medicine
+- Biomarkers
+- Artificial Intelligence
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://intervenn.com
+- type: PrivacyPolicy
+  url: https://intervenn.com/privacy-policy/
+- type: Support
+  url: https://intervenn.com/contact/
+- type: Blog
+  url: https://intervenn.com/news-and-events/
+- type: DomainSecurity
+  url: security/intervenn-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
